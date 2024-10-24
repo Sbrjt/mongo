@@ -1,0 +1,12 @@
+{
+  "name": "mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec \"cmd /c cls && node --env-file=.env index.js\""
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
